@@ -1,3 +1,14 @@
+#up-div {
+	background-color: #0cb8f1;
+    background-image: url(../images/top_menu_bg.png); 
+	background-position: top left;
+    background-repeat: repeat-x;
+   }
+   
+   #up-logo {
+	background-color: white;
+   }
+
 body {
-    background: url(https://github.com/MBotyuk/mbotyuk.github.io/blob/master/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
    }
