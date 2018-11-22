@@ -64,8 +64,6 @@ nav{
   margin: auto;
   width: 800px;
   height: 100px;
-    text-align: center;
-  position: relative;
   background: #FFFFFF;
   text-align: left;
    }   
@@ -74,8 +72,6 @@ main {
   margin: auto;
   width: 800px;
   height: 600px;
-    text-align: center;
-  position: relative;
   background: #FFFFFF;
   text-align: left;
    }
