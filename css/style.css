@@ -130,23 +130,23 @@ nav
 
 @media screen and (max-width: 700px){
   .logo{
-    font-size: 70%;
+    font-size: 80%;
   }
   .topnav a{
-    font-size: 70%;
+    font-size: 90%;
   }
     .main{
     font-size: 50%;
   }
   @media screen and (max-width: 500px){
   .logo{
-    font-size: 50%;
+    font-size: 70%;
   }
   .topnav a{
-    font-size: 50%;
+    font-size: 80%;
   }
     .main{
-    font-size: 30%;
+    font-size: 40%;
   }
 
 } 
