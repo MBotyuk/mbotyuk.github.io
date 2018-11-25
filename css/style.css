@@ -10,6 +10,9 @@ a {
 body {
   font-family: 'Raleway', sans-serif;
   background-image: url(../images/bg.jpg);
+  max-width: 2000px;
+  width: 100%;
+  margin: auto;
 }
 
 .logo {
@@ -20,17 +23,19 @@ body {
 }
 
 .up_logo {
+  margin-bottom: 0px;
   background: #FFFFFF;
   margin: 0 20% 0 20%;
-  width: 60%;
+}
+.up_logo img {
+  width: 30%;
+  height: auto;
 }
 
 .divnav{
   background-color: #FFFFFF;
   margin: 0 20% 0 20%;
-  width: 60%;
 }
-
 nav{
   padding: 14px;
 }  
@@ -52,17 +57,21 @@ nav{
    
 .main {
   margin: 0 20% 0 20%;
-  width: 60%;
   background: #FFFFFF;
 }
 .main h1{
   padding: 14px;
 }
-
+.map {
+  width: 50%;
+  height: auto;
+}
 .car{
     position: fixed;
     bottom: 1%;
     left: 1%;
+    width: 10%;
+    height: auto;
 }
 .car {
   animation-name: go;
