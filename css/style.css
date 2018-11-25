@@ -70,12 +70,31 @@ nav{
   background: #FFFFFF;
    }
 
-
+.car{
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+}
+.car {
+  animation-name: go;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes go {
+  0% {
+    left: 1%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
 
 .footer {
   margin: auto;
   width: 800px;
   height: 50px;
-  position: relative;
   background: #FFFFFF;
 }
