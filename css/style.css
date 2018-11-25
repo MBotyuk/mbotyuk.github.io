@@ -1,95 +1,154 @@
-* {
-  margin: 0;
-  padding: 0;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
-a {
-  text-decoration: none;
+a
+{
+    text-decoration: none;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  background-image: url(../images/bg.jpg);
-  max-width: 2000px;
-  width: 100%;
-  margin: auto;
+body
+{
+    font-family: 'Raleway', sans-serif;
+
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+
+    background-image: url(../images/bg.jpg);
 }
 
-.logo {
-  background-color: #0cb8f1;
-  color: white;
-  width: 100%;
-  padding-left: 20px;
+.logo
+{
+    width: 100%;
+    padding-left: 20px;
+
+    color: white;
+    background-color: #0cb8f1;
 }
 
-.up_logo {
-  margin-bottom: 0px;
-  background: #FFFFFF;
-  margin: 0 20% 0 20%;
+.up_logo
+{
+    margin: 0 20% 0 20%;
+    margin-bottom: 0;
+
+    background: #fff;
 }
-.up_logo img {
-  width: 20%;
-  height: auto;
+.up_logo img
+{
+    width: 20%;
+    height: auto;
 }
 
-.divnav{
-  background-color: #FFFFFF;
-  margin: 0 20% 0 20%;
+.divnav
+{
+    margin: 0 20% 0 20%;
+
+    background-color: #fff;
 }
-nav{
-  padding: 14px;
-}  
-.topnav{
-  background-color: #F8F8F8;
-  font-size: 14px;
-  border: 1px solid #E7E7E7;
+nav
+{
+    padding: 14px;
 }
-.topnav a{
-  color: #000;
-  text-align: center;
-  padding: 1px 14px;
-  font-size: 25px;
+.topnav
+{
+    font-size: 14px;
+
+    border: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
 }
-.topnav a:hover{
-  background-color: #0CB9F1;
-  color: white;
+.topnav a
+{
+    font-size: 25px;
+
+    padding: 1px 14px;
+
+    text-align: center;
+
+    color: #000;
 }
-   
-.main {
-  margin: 0 20% 0 20%;
-  background: #FFFFFF;
+.topnav a:hover
+{
+    color: white;
+    background-color: #0cb9f1;
 }
-.main h1{
-  padding: 14px;
+
+.main
+{
+    margin: 0 20% 0 20%;
+
+    background: #fff;
 }
-.map {
-  width: 50%;
-  height: auto;
+.main h1
+{
+    padding: 14px;
 }
-.car{
+.map
+{
+    width: 50%;
+    height: auto;
+}
+.car
+{
     position: fixed;
     bottom: 1%;
     left: 1%;
+
     width: 10%;
 }
-.car {
-  animation-name: go;
-  animation-duration: 20s;
-  animation-fill-mode: forwards;
+.car
+{
+    animation-name: go;
+    animation-duration: 20s;
+
+    animation-fill-mode: forwards;
 }
-@keyframes go {
-  0% {
-    left: 1%;
-  }
-  50% {
-    left: 50%;
-  }
-  100% {
-    left: 100%;
-  }
+@keyframes go
+{
+    0%
+    {
+        left: 1%;
+    }
+    50%
+    {
+        left: 50%;
+    }
+    100%
+    {
+        left: 100%;
+    }
 }
 
-.footer {
-  background: #FFFFFF;
-  margin: 0 20% 0 20%;
+.footer
+{
+    margin: 0 20% 0 20%;
+
+    background: #fff;
+}
+
+@media screen and (max-width: 700px){
+  .logo{
+    font-size: 70%;
+  }
+  .topnav a{
+    font-size: 70%;
+  }
+    .main{
+    font-size: 50%;
+  }
+  @media screen and (max-width: 500px){
+  .logo{
+    font-size: 50%;
+  }
+  .topnav a{
+    font-size: 50%;
+  }
+    .main{
+    font-size: 30%;
+  }
+
+} 
+  
 }
