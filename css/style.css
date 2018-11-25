@@ -71,7 +71,6 @@ nav{
     bottom: 1%;
     left: 1%;
     width: 10%;
-    height: auto;
 }
 .car {
   animation-name: go;
