@@ -24,10 +24,6 @@ body {
   margin: 0 20% 0 20%;
   width: 60%;
 }
-.up_logo_img {
-  margin: 5px 0 5px 0;
-  width: 30%;
-}
 
 .divnav{
   background-color: #FFFFFF;
@@ -63,13 +59,7 @@ nav{
   padding: 14px;
 }
 
-.map{
-  margin: 5px 0 5px 0;
-  width: 50%;
-}
-
 .car{
-    width: 15%;
     position: fixed;
     bottom: 1%;
     left: 1%;
