@@ -36,9 +36,10 @@ body
 
     background: #fff;
 }
-.up_logo img
+.up_logo_img
 {
-    width: 20%;
+    max-width: 100%;
+    display: block;
     height: auto;
 }
 
@@ -87,7 +88,8 @@ nav
 }
 .map
 {
-    width: 50%;
+    max-width: 100%;
+    display: block;
     height: auto;
 }
 .car
@@ -95,8 +97,9 @@ nav
     position: fixed;
     bottom: 1%;
     left: 1%;
-
-    width: 10%;
+    max-width: 20%;
+    display: block;
+    height: auto;
 }
 .car
 {
