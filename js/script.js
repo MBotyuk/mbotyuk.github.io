@@ -5,7 +5,7 @@ function pas()
 	user_name = prompt("Для отображения прайсов введите пароль.","");
 	user_name = user_name.toLowerCase();
 
-		if (user_name == "1")
+		if (user_name == "7414480")
 		{
  			document.write("<style>.tabl{display: block;}</style>");
 		} else {

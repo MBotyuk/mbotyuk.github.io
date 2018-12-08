@@ -12,146 +12,180 @@ a
 body
 {
     font-family: 'Raleway', sans-serif;
-
     width: 100%;
     max-width: 2000px;
     margin: auto;
-
     background-image: url(../images/bg.jpg);
 }
 
-.logo
-{
-    width: 100%;
-    padding-left: 20px;
-
-    color: white;
-    background-color: #0cb8f1;
-}
-
-.up_logo
-{
-    margin: 0 20% 0 20%;
-    margin-bottom: 0;
-
-    background: #fff;
-}
-.up_logo_img
-{
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
-
-.divnav
-{
-    margin: 0 20% 0 20%;
-
-    background-color: #fff;
-}
-nav
-{
-    padding: 14px;
-}
-.topnav
-{
-    font-size: 14px;
-
-    border: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
-}
-.topnav a
-{
-    font-size: 25px;
-
-    padding: 1px 14px;
-
-    text-align: center;
-
-    color: #000;
-}
-.topnav a:hover
-{
-    color: white;
-    background-color: #0cb9f1;
-}
-
-.main
-{
-    margin: 0 20% 0 20%;
-
-    background: #fff;
-}
-.main h1
-{
-    padding: 14px;
-}
-.map
-{
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
-.car
-{
-    position: fixed;
-    bottom: 1%;
-    left: 1%;
-    max-width: 20%;
-    display: block;
-    height: auto;
-}
-.car
-{
-    animation-name: go;
-    animation-duration: 20s;
-
-    animation-fill-mode: forwards;
-}
-@keyframes go
-{
-    0%
+    .div_strip
     {
-        left: 1%;
+        width: 100%;
+        padding-left: 20px;
+        color: white;
+        background-color: #0cb8f1;
     }
-    50%
-    {
-        left: 50%;
-    }
-    100%
-    {
-        left: 100%;
-    }
-}
 
-.footer
+    .div_logo
+    {
+        margin: 0 20% 0 20%;
+        margin-bottom: 0;
+        background: #fff;
+    }
+        .img_logo
+        {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+
+    .div_nav
+    {
+        margin: 0 20% 0 20%;
+        background-color: #fff;
+    }
+        nav
+        {
+            padding: 14px;
+        }
+            .a_nav
+            {
+                font-size: 14px;
+                border: 1px solid #e7e7e7;
+                background-color: #f8f8f8;
+            }
+                .a_nav a
+                {
+                    font-size: 25px;
+                    padding: 1px 14px;
+                    text-align: center;
+                    color: #000;
+                }
+                .a_nav a:hover
+                {
+                    color: white;
+                    background-color: #0cb9f1;
+                }
+
+    .main
+    {
+        margin: 0 20% 0 20%;
+        margin-bottom: 0;
+        background: #fff;
+    }
+        .main h1
+        {
+            padding: 14px;
+        }
+        .img_polesie
+        {
+            max-width: 90%;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+        .img_car
+        {
+            position: fixed;
+            bottom: 1%;
+            left: 1%;
+            max-width: 20%;
+            display: block;
+            height: auto;
+        }
+            .img_car
+            {
+                animation-name: go;
+                animation-duration: 20s;
+                animation-fill-mode: forwards;
+            }
+            @keyframes go
+            {
+                0%
+                {
+                    left: 1%;
+                }
+                50%
+                {
+                    left: 50%;
+                }
+                100%
+                {
+                    left: 100%;
+                }
+                }  
+
+    .footer
+    {
+        margin: 0 20% 0 20%;
+        background: #fff;
+    }
+
+@media screen and (max-width: 700px)
 {
-    margin: 0 20% 0 20%;
+    .div_strip
+    {
+        font-size: 80%;
+    }
+    .div_logo
+    {
+        margin: 0 15% 0 15%; 
+    }
+    .div_nav
+    {
+        margin: 0 15% 0 15%; 
+    }
+    .a_nav
+    {
+        text-align: center;
+    }
+    .a_nav a
+    {
+        font-size: 90%;
+    }
+    .main
+    {
+        font-size: 50%;
+        margin: 0 15% 0 15%;
+    }
+    .footer
+    {
+        font-size: 70%;
+        margin: 0 15% 0 15%; 
+    }
+}    
 
-    background: #fff;
-}
-
-@media screen and (max-width: 700px){
-  .logo{
-    font-size: 80%;
-  }
-  .topnav a{
-    font-size: 90%;
-  }
-    .main{
-    font-size: 50%;
-  }
-  @media screen and (max-width: 500px){
-  .logo{
-    font-size: 70%;
-  }
-  .topnav a{
-    font-size: 80%;
-  }
-    .main{
-    font-size: 40%;
-  }
-
-} 
-  
+@media screen and (max-width: 500px)
+{
+    .div_strip
+    {
+        font-size: 70%;
+    }
+    .div_logo
+    {
+        margin: 0 10% 0 10%; 
+    }
+    .div_nav
+    {
+        margin: 0 10% 0 10%; 
+    }
+    .a_nav
+    {
+        text-align: center;
+    }
+    .a_nav a
+    {
+        font-size: 80%;
+    }
+    .main
+    {
+        font-size: 40%;
+        margin: 0 10% 0 10%;
+    }
+    .footer
+    {
+        font-size: 60%;
+        margin: 0 10% 0 10%; 
+    }
 }
